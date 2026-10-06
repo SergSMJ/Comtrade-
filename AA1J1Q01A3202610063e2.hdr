@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DisturbanceRecording HeaderFileVersion="1.0" >
+<generals>
+<general name="RecorderId" value="1" />
+<general name="TrigDateTime" value="06/10/2026,00:39:36.751" />
+<general name="TrigChannel" value="PHS-STPE" />
+<general name="TrigWhileIEDinTestMode" value="0" />
+<general name="SequenceNumber" value="0" />
+<general name="RecordingNumber" value="994" />
+<general name="TypeOfTimeSync" value="NONE" />
+<general name="DistRecInst" value="1" />
+<general name="EventRecInst" value="1" />
+<general name="FaultLocInst" value="1" />
+<general name="LineLength" value="4.000000E+01" />
+<general name="DisRecPlatform" value="DISREC 5A" />
+<general name="ThreePhaseIED" value="1" />
+<general name="SystemFreq" value="5.000000E+01" />
+<general name="TotalRecordingTime" value="9873" />
+<general name="PreTrigRecordingTime" value="500" />
+<general name="PostFaultRecordingTime" value="8998" />
+<general name="RecordingTimeLimitSetting" value="9500" />
+<general name="PreTrigRecordingTimeSetting" value="500" />
+<general name="PostFaultRecordingTimeSetting" value="9000" />
+<general name="SamplingFrequency" value="1000" />
+<general name="IEDsourceType" value="REL670" />
+<general name="IEDmodVersionNo" value="1p1r26" />
+<general name="StationId" value="XAEC-750" />
+<general name="ObjectId" value="Kievska" />
+<general name="IEDid" value="Unit name" />
+<general name="StationNumber" value="0" />
+<general name="ObjectNumber" value="0" />
+<general name="IEDnumber" value="0" />
+<general name="ActiveSettingGroup" value="1" />
+</generals>
+<analoguechannels>
+<analoguechannel channelno="1" channelindexnoincfgfile="1" channelid="B20 CT A IL1" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="623" pretrigrmsvalue="1.846595E+02" faultrmsvalue="4.875128E+02" pretrigangle="1.783499E-01" faultangle="-2.396362E+01" />
+<analoguechannel channelno="2" channelindexnoincfgfile="2" channelid="B20 CT A IL2" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="-1726" pretrigrmsvalue="1.970226E+02" faultrmsvalue="1.519265E+03" pretrigangle="-1.155361E+02" faultangle="1.595324E+02" />
+<analoguechannel channelno="3" channelindexnoincfgfile="3" channelid="B20 CT A IL3" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="112" pretrigrmsvalue="1.965730E+02" faultrmsvalue="1.571114E+02" pretrigangle="1.220341E+02" faultangle="-3.013397E+00" />
+<analoguechannel channelno="5" channelindexnoincfgfile="4" channelid="B21 CT A IL1" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="518" pretrigrmsvalue="2.511575E+02" faultrmsvalue="3.889501E+02" pretrigangle="2.663069E+01" faultangle="-4.959714E+00" />
+<analoguechannel channelno="6" channelindexnoincfgfile="5" channelid="B21 CT A IL2" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="-1870" pretrigrmsvalue="2.625117E+02" faultrmsvalue="1.391671E+03" pretrigangle="-9.343909E+01" faultangle="1.625574E+02" />
+<analoguechannel channelno="7" channelindexnoincfgfile="6" channelid="B21 CT A IL3" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="-75" pretrigrmsvalue="2.589569E+02" faultrmsvalue="7.332840E+01" pretrigangle="1.421571E+02" faultangle="1.646174E+02" />
+<analoguechannel channelno="11" channelindexnoincfgfile="7" channelid="LINE CT A IL1" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="1020" pretrigrmsvalue="5.324404E+02" faultrmsvalue="8.519617E+02" pretrigangle="3.878540E+01" faultangle="-2.108534E+00" />
+<analoguechannel channelno="12" channelindexnoincfgfile="8" channelid="LINE CT A IL2" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="-3403" pretrigrmsvalue="5.613773E+02" faultrmsvalue="2.768602E+03" pretrigangle="-8.084122E+01" faultangle="1.612703E+02" />
+<analoguechannel channelno="13" channelindexnoincfgfile="9" channelid="LINE CT A IL3" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="-74" pretrigrmsvalue="5.531657E+02" faultrmsvalue="1.484719E+02" pretrigangle="1.568762E+02" faultangle="-1.260558E+02" />
+<analoguechannel channelno="14" channelindexnoincfgfile="10" channelid="LINE CT A IN" channelinuse="1" primarytransformerrating="2.000000E+03" secondarytransformerrating="1.000000E+00" ctdirection="1" channeltype="1" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="-2457" pretrigrmsvalue="5.543551E+00" faultrmsvalue="1.999056E+03" pretrigangle="-1.414049E+02" faultangle="1.583466E+02" />
+<analoguechannel channelno="16" channelindexnoincfgfile="11" channelid="LINE VT A UL1" channelinuse="1" primarytransformerrating="4.330000E+05" secondarytransformerrating="5.773500E+01" ctdirection="1" channeltype="0" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="532140" pretrigrmsvalue="4.545595E+05" faultrmsvalue="4.129913E+05" pretrigangle="0.000000E+00" faultangle="-4.831976E+00" />
+<analoguechannel channelno="17" channelindexnoincfgfile="12" channelid="LINE VT A UL2" channelinuse="1" primarytransformerrating="4.330000E+05" secondarytransformerrating="5.773500E+01" ctdirection="1" channeltype="0" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="134316" pretrigrmsvalue="4.471242E+05" faultrmsvalue="2.891514E+05" pretrigangle="-1.217136E+02" faultangle="-1.187106E+02" />
+<analoguechannel channelno="18" channelindexnoincfgfile="13" channelid="LINE VT A UL3" channelinuse="1" primarytransformerrating="4.330000E+05" secondarytransformerrating="5.773500E+01" ctdirection="1" channeltype="0" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="-545736" pretrigrmsvalue="4.369308E+05" faultrmsvalue="4.228249E+05" pretrigangle="1.194653E+02" faultangle="1.250272E+02" />
+<analoguechannel channelno="19" channelindexnoincfgfile="-1" channelid="LINE VT A UHK" channelinuse="0" primarytransformerrating="4.330000E+05" secondarytransformerrating="5.773500E+01" ctdirection="1" channeltype="0" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="120720" pretrigrmsvalue="4.593326E+03" faultrmsvalue="6.513765E+04" pretrigangle="6.591269E-01" faultangle="6.264302E+01" />
+<analoguechannel channelno="21" channelindexnoincfgfile="-1" channelid="3U0_UAP_1" channelinuse="0" primarytransformerrating="4.330000E+05" secondarytransformerrating="5.773500E+01" ctdirection="1" channeltype="0" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="18633" pretrigrmsvalue="1.961434E+02" faultrmsvalue="7.316041E+04" pretrigangle="-2.160657E+01" faultangle="-7.506679E+01" />
+<analoguechannel channelno="22" channelindexnoincfgfile="-1" channelid="LINE_VT_UL1" channelinuse="0" primarytransformerrating="4.330000E+05" secondarytransformerrating="5.773500E+01" ctdirection="1" channeltype="0" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="550774" pretrigrmsvalue="4.547418E+05" faultrmsvalue="4.431132E+05" pretrigangle="-9.097812E-03" faultangle="-1.377073E+01" />
+<analoguechannel channelno="23" channelindexnoincfgfile="-1" channelid="LINE_VT_UL2" channelinuse="0" primarytransformerrating="4.330000E+05" secondarytransformerrating="5.773500E+01" ctdirection="1" channeltype="0" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="152949" pretrigrmsvalue="4.470898E+05" faultrmsvalue="3.457999E+05" pretrigangle="-1.216889E+02" faultangle="-1.103143E+02" />
+<analoguechannel channelno="24" channelindexnoincfgfile="-1" channelid="LINE_VT_UL3" channelinuse="0" primarytransformerrating="4.330000E+05" secondarytransformerrating="5.773500E+01" ctdirection="1" channeltype="0" triglowstatus="0" triglowsetting="0" triglowenable="0" trighighstatus="0" trighighsetting="0" trighighenable="0" valueattrig="-527103" pretrigrmsvalue="4.367782E+05" faultrmsvalue="3.550087E+05" pretrigangle="1.194492E+02" faultangle="1.290872E+02" />
+</analoguechannels>
+<binarychannels>
+<binarychannel channelno="1" channelindexnoincfgfile="1" channelid="ZM01-TRL1" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="2" channelindexnoincfgfile="2" channelid="ZM01-TRL2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="3" channelindexnoincfgfile="3" channelid="ZM01-TRL3" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="4" channelindexnoincfgfile="4" channelid="ZM01-TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="5" channelindexnoincfgfile="5" channelid="ZM01-START" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="6" channelindexnoincfgfile="6" channelid="ZM02-TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="7" channelindexnoincfgfile="7" channelid="ZM02-START" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="8" channelindexnoincfgfile="8" channelid="ZM03-TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="9" channelindexnoincfgfile="9" channelid="ZM03-START" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="10" channelindexnoincfgfile="10" channelid="ZM04-TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="11" channelindexnoincfgfile="11" channelid="ZM04-START" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="12" channelindexnoincfgfile="12" channelid="ZM05-TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="13" channelindexnoincfgfile="13" channelid="ZM05-START" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="14" channelindexnoincfgfile="14" channelid="SOTF_TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="15" channelindexnoincfgfile="15" channelid="ZCOM-TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="16" channelindexnoincfgfile="16" channelid="ZCOM-CRL" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="17" channelindexnoincfgfile="17" channelid="COM7 CR" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="18" channelindexnoincfgfile="18" channelid="ZCAL-IREV" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="19" channelindexnoincfgfile="19" channelid="PHS-STFWL1" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="20" channelindexnoincfgfile="20" channelid="PHS-STFWL2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="21" channelindexnoincfgfile="21" channelid="PHS-STFWL3" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="22" channelindexnoincfgfile="22" channelid="PHS-STPE" triglevelsetting="1" trigenable="1" valueattrig="1" trigstatus="1" />
+<binarychannel channelno="23" channelindexnoincfgfile="23" channelid="PSD1-START" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="24" channelindexnoincfgfile="24" channelid="IOC1-TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="25" channelindexnoincfgfile="25" channelid="L FUSE DLD3PH" triglevelsetting="1" trigenable="1" valueattrig="1" trigstatus="0" />
+<binarychannel channelno="26" channelindexnoincfgfile="26" channelid="L FUSE BLKZ" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="27" channelindexnoincfgfile="27" channelid="COM2_CR" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="28" channelindexnoincfgfile="28" channelid="PD_TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="29" channelindexnoincfgfile="29" channelid="UAP-FIX-_OAPV" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="30" channelindexnoincfgfile="30" channelid="IEF1-TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="31" channelindexnoincfgfile="31" channelid="BFP1 TRBU" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="32" channelindexnoincfgfile="32" channelid="BFP1 TRRET" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="33" channelindexnoincfgfile="33" channelid="BFP1 TRRETL1" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="34" channelindexnoincfgfile="34" channelid="BFP1 TRRETL2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="35" channelindexnoincfgfile="35" channelid="BFP1 TRRETL3" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="36" channelindexnoincfgfile="36" channelid="BFP2 TRBU" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="37" channelindexnoincfgfile="37" channelid="BFP2 TRRET" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="38" channelindexnoincfgfile="38" channelid="ZM03-STND" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="39" channelindexnoincfgfile="39" channelid="BFP2 TRRETL1" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="40" channelindexnoincfgfile="40" channelid="BFP2 TRRETL2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="41" channelindexnoincfgfile="41" channelid="BFP2 TRRETL3" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="42" channelindexnoincfgfile="42" channelid="TRP1 TRL1" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="43" channelindexnoincfgfile="43" channelid="TRP1 TRL2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="44" channelindexnoincfgfile="44" channelid="TRP1 TRL3" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="45" channelindexnoincfgfile="45" channelid="TRP2 TRL1" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="46" channelindexnoincfgfile="46" channelid="TRP2 TRL2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="47" channelindexnoincfgfile="47" channelid="TRP2 TRL3" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="48" channelindexnoincfgfile="48" channelid="EFC1 TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="49" channelindexnoincfgfile="49" channelid="COM1 CS" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="50" channelindexnoincfgfile="50" channelid="COM2 CS" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="51" channelindexnoincfgfile="51" channelid="COM7 CS" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="52" channelindexnoincfgfile="52" channelid="COM16 CS" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="53" channelindexnoincfgfile="53" channelid="START REL" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="54" channelindexnoincfgfile="54" channelid="TEF1 TRIN1" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="55" channelindexnoincfgfile="55" channelid="TEF1 TRIN2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="56" channelindexnoincfgfile="56" channelid="TEF1 TRIN3" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="57" channelindexnoincfgfile="57" channelid="TEF1 TRIN4" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="58" channelindexnoincfgfile="58" channelid="TEF1 START" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="59" channelindexnoincfgfile="59" channelid="TEF1 STFW" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="60" channelindexnoincfgfile="60" channelid="TEF1 STRV" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="61" channelindexnoincfgfile="61" channelid="TEF1 2NDHARMD" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="62" channelindexnoincfgfile="62" channelid="TEF1-TRSOTF" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="63" channelindexnoincfgfile="63" channelid="TOC1 START" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="64" channelindexnoincfgfile="64" channelid="RESET LEDS" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="65" channelindexnoincfgfile="65" channelid="ACGR GRP1" triglevelsetting="1" trigenable="1" valueattrig="1" trigstatus="0" />
+<binarychannel channelno="66" channelindexnoincfgfile="66" channelid="ACGR GRP2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="67" channelindexnoincfgfile="67" channelid="ACGR GRP3" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="68" channelindexnoincfgfile="68" channelid="TRIP_3P_UAP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="69" channelindexnoincfgfile="69" channelid="BI FUSE MCB" triglevelsetting="1" trigenable="1" valueattrig="1" trigstatus="0" />
+<binarychannel channelno="70" channelindexnoincfgfile="70" channelid="BI COM1 CR" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="71" channelindexnoincfgfile="71" channelid="BI COM2 CR" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="72" channelindexnoincfgfile="72" channelid="BI COM7 CR" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="73" channelindexnoincfgfile="73" channelid="BI ZCOM CR" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="74" channelindexnoincfgfile="74" channelid="BI CYCLE OAPV" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="75" channelindexnoincfgfile="75" channelid="EXT TR3P INH" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="76" channelindexnoincfgfile="76" channelid="PERM 1P TRIP" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="77" channelindexnoincfgfile="77" channelid="TR L1 STBFP2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="78" channelindexnoincfgfile="78" channelid="TR L2 STBFP2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="79" channelindexnoincfgfile="79" channelid="TR L3 STBFP2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="80" channelindexnoincfgfile="80" channelid="TR L1 STBF1_2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="81" channelindexnoincfgfile="81" channelid="TR L2 STBF1_2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="82" channelindexnoincfgfile="82" channelid="TR L3 STBF1_2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="83" channelindexnoincfgfile="83" channelid="BI START BFP1" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="84" channelindexnoincfgfile="84" channelid="BI START BFP2" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="85" channelindexnoincfgfile="85" channelid="BI ZNR VL" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="86" channelindexnoincfgfile="86" channelid="BI B22 OPEN" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="87" channelindexnoincfgfile="87" channelid="BI VIV SIM PR" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="88" channelindexnoincfgfile="88" channelid="BI VIV L60 PR" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="89" channelindexnoincfgfile="89" channelid="BI EF4 BLOCK" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="90" channelindexnoincfgfile="90" channelid="BI CLOSE COM" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="91" channelindexnoincfgfile="91" channelid="B21TRL1REZSO" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="92" channelindexnoincfgfile="92" channelid="B21TRL2REZSO" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="93" channelindexnoincfgfile="93" channelid="B21TRL3REZSO" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="94" channelindexnoincfgfile="94" channelid="B20TRL1REZSO" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="95" channelindexnoincfgfile="95" channelid="B20TRL2REZSO" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+<binarychannel channelno="96" channelindexnoincfgfile="96" channelid="B20TRL3REZSO" triglevelsetting="1" trigenable="1" valueattrig="0" trigstatus="0" />
+</binarychannels>
+<faultlocations>
+<faultlocation name="FaultLocCalculationStatus" value="0" />
+<faultlocation name="FaultLocFaultedLoop" value="5" />
+<faultlocation name="FaultLocDistanceToFault" value="1.236117E+00" />
+<faultlocation name="FaultLocDirectionToFault" value="1" />
+</faultlocations>
+<events>
+<event channelno="22" datetime="06/10/2026,00:39:36.751" channelid="PHS-STPE" statuschange="On" />
+<event channelno="58" datetime="06/10/2026,00:39:36.753" channelid="TEF1 START" statuschange="On" />
+<event channelno="59" datetime="06/10/2026,00:39:36.753" channelid="TEF1 STFW" statuschange="On" />
+<event channelno="61" datetime="06/10/2026,00:39:36.753" channelid="TEF1 2NDHARMD" statuschange="On" />
+<event channelno="53" datetime="06/10/2026,00:39:36.754" channelid="START REL" statuschange="On" />
+<event channelno="20" datetime="06/10/2026,00:39:36.760" channelid="PHS-STFWL2" statuschange="On" />
+<event channelno="7" datetime="06/10/2026,00:39:36.763" channelid="ZM02-START" statuschange="On" />
+<event channelno="9" datetime="06/10/2026,00:39:36.763" channelid="ZM03-START" statuschange="On" />
+<event channelno="13" datetime="06/10/2026,00:39:36.763" channelid="ZM05-START" statuschange="On" />
+<event channelno="38" datetime="06/10/2026,00:39:36.763" channelid="ZM03-STND" statuschange="On" />
+<event channelno="52" datetime="06/10/2026,00:39:36.766" channelid="COM16 CS" statuschange="On" />
+<event channelno="61" datetime="06/10/2026,00:39:36.769" channelid="TEF1 2NDHARMD" statuschange="Off" />
+<event channelno="74" datetime="06/10/2026,00:39:36.780" channelid="BI CYCLE OAPV" statuschange="On" />
+<event channelno="81" datetime="06/10/2026,00:39:36.781" channelid="TR L2 STBF1_2" statuschange="On" />
+<event channelno="74" datetime="06/10/2026,00:39:36.782" channelid="BI CYCLE OAPV" statuschange="Off" />
+<event channelno="74" datetime="06/10/2026,00:39:36.784" channelid="BI CYCLE OAPV" statuschange="On" />
+<event channelno="32" datetime="06/10/2026,00:39:36.784" channelid="BFP1 TRRET" statuschange="On" />
+<event channelno="34" datetime="06/10/2026,00:39:36.784" channelid="BFP1 TRRETL2" statuschange="On" />
+<event channelno="37" datetime="06/10/2026,00:39:36.784" channelid="BFP2 TRRET" statuschange="On" />
+<event channelno="40" datetime="06/10/2026,00:39:36.784" channelid="BFP2 TRRETL2" statuschange="On" />
+<event channelno="92" datetime="06/10/2026,00:39:36.784" channelid="B21TRL2REZSO" statuschange="On" />
+<event channelno="95" datetime="06/10/2026,00:39:36.784" channelid="B20TRL2REZSO" statuschange="On" />
+<event channelno="74" datetime="06/10/2026,00:39:36.788" channelid="BI CYCLE OAPV" statuschange="Off" />
+<event channelno="74" datetime="06/10/2026,00:39:36.789" channelid="BI CYCLE OAPV" statuschange="On" />
+<event channelno="61" datetime="06/10/2026,00:39:36.801" channelid="TEF1 2NDHARMD" statuschange="On" />
+<event channelno="7" datetime="06/10/2026,00:39:36.802" channelid="ZM02-START" statuschange="Off" />
+<event channelno="9" datetime="06/10/2026,00:39:36.802" channelid="ZM03-START" statuschange="Off" />
+<event channelno="13" datetime="06/10/2026,00:39:36.802" channelid="ZM05-START" statuschange="Off" />
+<event channelno="20" datetime="06/10/2026,00:39:36.802" channelid="PHS-STFWL2" statuschange="Off" />
+<event channelno="38" datetime="06/10/2026,00:39:36.802" channelid="ZM03-STND" statuschange="Off" />
+<event channelno="52" datetime="06/10/2026,00:39:36.805" channelid="COM16 CS" statuschange="Off" />
+<event channelno="59" datetime="06/10/2026,00:39:36.817" channelid="TEF1 STFW" statuschange="Off" />
+<event channelno="60" datetime="06/10/2026,00:39:36.817" channelid="TEF1 STRV" statuschange="On" />
+<event channelno="61" datetime="06/10/2026,00:39:36.817" channelid="TEF1 2NDHARMD" statuschange="Off" />
+<event channelno="72" datetime="06/10/2026,00:39:36.820" channelid="BI COM7 CR" statuschange="On" />
+<event channelno="60" datetime="06/10/2026,00:39:36.825" channelid="TEF1 STRV" statuschange="Off" />
+<event channelno="61" datetime="06/10/2026,00:39:36.825" channelid="TEF1 2NDHARMD" statuschange="On" />
+<event channelno="58" datetime="06/10/2026,00:39:36.841" channelid="TEF1 START" statuschange="Off" />
+<event channelno="53" datetime="06/10/2026,00:39:36.844" channelid="START REL" statuschange="Off" />
+<event channelno="61" datetime="06/10/2026,00:39:36.849" channelid="TEF1 2NDHARMD" statuschange="Off" />
+<event channelno="32" datetime="06/10/2026,00:39:36.886" channelid="BFP1 TRRET" statuschange="Off" />
+<event channelno="34" datetime="06/10/2026,00:39:36.886" channelid="BFP1 TRRETL2" statuschange="Off" />
+<event channelno="37" datetime="06/10/2026,00:39:36.886" channelid="BFP2 TRRET" statuschange="Off" />
+<event channelno="40" datetime="06/10/2026,00:39:36.886" channelid="BFP2 TRRETL2" statuschange="Off" />
+<event channelno="92" datetime="06/10/2026,00:39:36.886" channelid="B21TRL2REZSO" statuschange="Off" />
+<event channelno="95" datetime="06/10/2026,00:39:36.886" channelid="B20TRL2REZSO" statuschange="Off" />
+<event channelno="81" datetime="06/10/2026,00:39:36.899" channelid="TR L2 STBF1_2" statuschange="Off" />
+<event channelno="60" datetime="06/10/2026,00:39:36.921" channelid="TEF1 STRV" statuschange="On" />
+<event channelno="61" datetime="06/10/2026,00:39:36.921" channelid="TEF1 2NDHARMD" statuschange="On" />
+<event channelno="21" datetime="06/10/2026,00:39:36.925" channelid="PHS-STFWL3" statuschange="On" />
+<event channelno="7" datetime="06/10/2026,00:39:36.928" channelid="ZM02-START" statuschange="On" />
+<event channelno="9" datetime="06/10/2026,00:39:36.928" channelid="ZM03-START" statuschange="On" />
+<event channelno="13" datetime="06/10/2026,00:39:36.928" channelid="ZM05-START" statuschange="On" />
+<event channelno="38" datetime="06/10/2026,00:39:36.928" channelid="ZM03-STND" statuschange="On" />
+<event channelno="53" datetime="06/10/2026,00:39:36.928" channelid="START REL" statuschange="On" />
+<event channelno="61" datetime="06/10/2026,00:39:36.929" channelid="TEF1 2NDHARMD" statuschange="Off" />
+<event channelno="52" datetime="06/10/2026,00:39:36.931" channelid="COM16 CS" statuschange="On" />
+<event channelno="17" datetime="06/10/2026,00:39:36.934" channelid="COM7 CR" statuschange="On" />
+<event channelno="44" datetime="06/10/2026,00:39:36.934" channelid="TRP1 TRL3" statuschange="On" />
+<event channelno="47" datetime="06/10/2026,00:39:36.934" channelid="TRP2 TRL3" statuschange="On" />
+<event channelno="93" datetime="06/10/2026,00:39:36.934" channelid="B21TRL3REZSO" statuschange="On" />
+<event channelno="96" datetime="06/10/2026,00:39:36.934" channelid="B20TRL3REZSO" statuschange="On" />
+<event channelno="32" datetime="06/10/2026,00:39:36.937" channelid="BFP1 TRRET" statuschange="On" />
+<event channelno="35" datetime="06/10/2026,00:39:36.937" channelid="BFP1 TRRETL3" statuschange="On" />
+<event channelno="37" datetime="06/10/2026,00:39:36.937" channelid="BFP2 TRRET" statuschange="On" />
+<event channelno="41" datetime="06/10/2026,00:39:36.937" channelid="BFP2 TRRETL3" statuschange="On" />
+<event channelno="51" datetime="06/10/2026,00:39:36.949" channelid="COM7 CS" statuschange="On" />
+<event channelno="76" datetime="06/10/2026,00:39:36.956" channelid="PERM 1P TRIP" statuschange="Off" />
+<event channelno="82" datetime="06/10/2026,00:39:36.959" channelid="TR L3 STBF1_2" statuschange="On" />
+<event channelno="42" datetime="06/10/2026,00:39:36.964" channelid="TRP1 TRL1" statuschange="On" />
+<event channelno="43" datetime="06/10/2026,00:39:36.964" channelid="TRP1 TRL2" statuschange="On" />
+<event channelno="45" datetime="06/10/2026,00:39:36.964" channelid="TRP2 TRL1" statuschange="On" />
+<event channelno="46" datetime="06/10/2026,00:39:36.964" channelid="TRP2 TRL2" statuschange="On" />
+<event channelno="91" datetime="06/10/2026,00:39:36.964" channelid="B21TRL1REZSO" statuschange="On" />
+<event channelno="92" datetime="06/10/2026,00:39:36.964" channelid="B21TRL2REZSO" statuschange="On" />
+<event channelno="94" datetime="06/10/2026,00:39:36.964" channelid="B20TRL1REZSO" statuschange="On" />
+<event channelno="95" datetime="06/10/2026,00:39:36.964" channelid="B20TRL2REZSO" statuschange="On" />
+<event channelno="33" datetime="06/10/2026,00:39:36.967" channelid="BFP1 TRRETL1" statuschange="On" />
+<event channelno="34" datetime="06/10/2026,00:39:36.967" channelid="BFP1 TRRETL2" statuschange="On" />
+<event channelno="39" datetime="06/10/2026,00:39:36.967" channelid="BFP2 TRRETL1" statuschange="On" />
+<event channelno="40" datetime="06/10/2026,00:39:36.967" channelid="BFP2 TRRETL2" statuschange="On" />
+<event channelno="50" datetime="06/10/2026,00:39:36.967" channelid="COM2 CS" statuschange="On" />
+<event channelno="51" datetime="06/10/2026,00:39:36.967" channelid="COM7 CS" statuschange="Off" />
+<event channelno="80" datetime="06/10/2026,00:39:36.975" channelid="TR L1 STBF1_2" statuschange="On" />
+<event channelno="81" datetime="06/10/2026,00:39:36.976" channelid="TR L2 STBF1_2" statuschange="On" />
+<event channelno="80" datetime="06/10/2026,00:39:36.977" channelid="TR L1 STBF1_2" statuschange="Off" />
+<event channelno="61" datetime="06/10/2026,00:39:36.977" channelid="TEF1 2NDHARMD" statuschange="On" />
+<event channelno="80" datetime="06/10/2026,00:39:36.979" channelid="TR L1 STBF1_2" statuschange="On" />
+<event channelno="7" datetime="06/10/2026,00:39:36.979" channelid="ZM02-START" statuschange="Off" />
+<event channelno="9" datetime="06/10/2026,00:39:36.979" channelid="ZM03-START" statuschange="Off" />
+<event channelno="13" datetime="06/10/2026,00:39:36.979" channelid="ZM05-START" statuschange="Off" />
+<event channelno="21" datetime="06/10/2026,00:39:36.979" channelid="PHS-STFWL3" statuschange="Off" />
+<event channelno="38" datetime="06/10/2026,00:39:36.979" channelid="ZM03-STND" statuschange="Off" />
+<event channelno="52" datetime="06/10/2026,00:39:36.982" channelid="COM16 CS" statuschange="Off" />
+<event channelno="17" datetime="06/10/2026,00:39:36.985" channelid="COM7 CR" statuschange="Off" />
+<event channelno="60" datetime="06/10/2026,00:39:36.985" channelid="TEF1 STRV" statuschange="Off" />
+<event channelno="53" datetime="06/10/2026,00:39:36.988" channelid="START REL" statuschange="Off" />
+<event channelno="61" datetime="06/10/2026,00:39:36.993" channelid="TEF1 2NDHARMD" statuschange="Off" />
+<event channelno="72" datetime="06/10/2026,00:39:37.005" channelid="BI COM7 CR" statuschange="Off" />
+<event channelno="35" datetime="06/10/2026,00:39:37.039" channelid="BFP1 TRRETL3" statuschange="Off" />
+<event channelno="41" datetime="06/10/2026,00:39:37.039" channelid="BFP2 TRRETL3" statuschange="Off" />
+<event channelno="32" datetime="06/10/2026,00:39:37.069" channelid="BFP1 TRRET" statuschange="Off" />
+<event channelno="33" datetime="06/10/2026,00:39:37.069" channelid="BFP1 TRRETL1" statuschange="Off" />
+<event channelno="34" datetime="06/10/2026,00:39:37.069" channelid="BFP1 TRRETL2" statuschange="Off" />
+<event channelno="37" datetime="06/10/2026,00:39:37.069" channelid="BFP2 TRRET" statuschange="Off" />
+<event channelno="39" datetime="06/10/2026,00:39:37.069" channelid="BFP2 TRRETL1" statuschange="Off" />
+<event channelno="40" datetime="06/10/2026,00:39:37.069" channelid="BFP2 TRRETL2" statuschange="Off" />
+<event channelno="71" datetime="06/10/2026,00:39:37.076" channelid="BI COM2 CR" statuschange="On" />
+<event channelno="27" datetime="06/10/2026,00:39:37.084" channelid="COM2_CR" statuschange="On" />
+<event channelno="42" datetime="06/10/2026,00:39:37.084" channelid="TRP1 TRL1" statuschange="Off" />
+<event channelno="43" datetime="06/10/2026,00:39:37.084" channelid="TRP1 TRL2" statuschange="Off" />
+<event channelno="44" datetime="06/10/2026,00:39:37.084" channelid="TRP1 TRL3" statuschange="Off" />
+<event channelno="45" datetime="06/10/2026,00:39:37.084" channelid="TRP2 TRL1" statuschange="Off" />
+<event channelno="46" datetime="06/10/2026,00:39:37.084" channelid="TRP2 TRL2" statuschange="Off" />
+<event channelno="47" datetime="06/10/2026,00:39:37.084" channelid="TRP2 TRL3" statuschange="Off" />
+<event channelno="94" datetime="06/10/2026,00:39:37.084" channelid="B20TRL1REZSO" statuschange="Off" />
+<event channelno="95" datetime="06/10/2026,00:39:37.084" channelid="B20TRL2REZSO" statuschange="Off" />
+<event channelno="96" datetime="06/10/2026,00:39:37.084" channelid="B20TRL3REZSO" statuschange="Off" />
+<event channelno="50" datetime="06/10/2026,00:39:37.087" channelid="COM2 CS" statuschange="Off" />
+<event channelno="53" datetime="06/10/2026,00:39:37.087" channelid="START REL" statuschange="On" />
+<event channelno="91" datetime="06/10/2026,00:39:37.087" channelid="B21TRL1REZSO" statuschange="Off" />
+<event channelno="92" datetime="06/10/2026,00:39:37.087" channelid="B21TRL2REZSO" statuschange="Off" />
+<event channelno="93" datetime="06/10/2026,00:39:37.087" channelid="B21TRL3REZSO" statuschange="Off" />
+<event channelno="42" datetime="06/10/2026,00:39:37.102" channelid="TRP1 TRL1" statuschange="On" />
+<event channelno="43" datetime="06/10/2026,00:39:37.102" channelid="TRP1 TRL2" statuschange="On" />
+<event channelno="44" datetime="06/10/2026,00:39:37.102" channelid="TRP1 TRL3" statuschange="On" />
+<event channelno="45" datetime="06/10/2026,00:39:37.102" channelid="TRP2 TRL1" statuschange="On" />
+<event channelno="46" datetime="06/10/2026,00:39:37.102" channelid="TRP2 TRL2" statuschange="On" />
+<event channelno="47" datetime="06/10/2026,00:39:37.102" channelid="TRP2 TRL3" statuschange="On" />
+<event channelno="91" datetime="06/10/2026,00:39:37.102" channelid="B21TRL1REZSO" statuschange="On" />
+<event channelno="92" datetime="06/10/2026,00:39:37.102" channelid="B21TRL2REZSO" statuschange="On" />
+<event channelno="93" datetime="06/10/2026,00:39:37.102" channelid="B21TRL3REZSO" statuschange="On" />
+<event channelno="94" datetime="06/10/2026,00:39:37.102" channelid="B20TRL1REZSO" statuschange="On" />
+<event channelno="95" datetime="06/10/2026,00:39:37.102" channelid="B20TRL2REZSO" statuschange="On" />
+<event channelno="96" datetime="06/10/2026,00:39:37.102" channelid="B20TRL3REZSO" statuschange="On" />
+<event channelno="50" datetime="06/10/2026,00:39:37.105" channelid="COM2 CS" statuschange="On" />
+<event channelno="22" datetime="06/10/2026,00:39:37.126" channelid="PHS-STPE" statuschange="Off" />
+<event channelno="71" datetime="06/10/2026,00:39:37.258" channelid="BI COM2 CR" statuschange="Off" />
+<event channelno="42" datetime="06/10/2026,00:39:37.260" channelid="TRP1 TRL1" statuschange="Off" />
+<event channelno="43" datetime="06/10/2026,00:39:37.260" channelid="TRP1 TRL2" statuschange="Off" />
+<event channelno="44" datetime="06/10/2026,00:39:37.260" channelid="TRP1 TRL3" statuschange="Off" />
+<event channelno="45" datetime="06/10/2026,00:39:37.260" channelid="TRP2 TRL1" statuschange="Off" />
+<event channelno="46" datetime="06/10/2026,00:39:37.260" channelid="TRP2 TRL2" statuschange="Off" />
+<event channelno="47" datetime="06/10/2026,00:39:37.260" channelid="TRP2 TRL3" statuschange="Off" />
+<event channelno="94" datetime="06/10/2026,00:39:37.260" channelid="B20TRL1REZSO" statuschange="Off" />
+<event channelno="95" datetime="06/10/2026,00:39:37.260" channelid="B20TRL2REZSO" statuschange="Off" />
+<event channelno="96" datetime="06/10/2026,00:39:37.260" channelid="B20TRL3REZSO" statuschange="Off" />
+<event channelno="27" datetime="06/10/2026,00:39:37.263" channelid="COM2_CR" statuschange="Off" />
+<event channelno="50" datetime="06/10/2026,00:39:37.263" channelid="COM2 CS" statuschange="Off" />
+<event channelno="91" datetime="06/10/2026,00:39:37.263" channelid="B21TRL1REZSO" statuschange="Off" />
+<event channelno="92" datetime="06/10/2026,00:39:37.263" channelid="B21TRL2REZSO" statuschange="Off" />
+<event channelno="93" datetime="06/10/2026,00:39:37.263" channelid="B21TRL3REZSO" statuschange="Off" />
+<event channelno="53" datetime="06/10/2026,00:39:37.266" channelid="START REL" statuschange="Off" />
+<event channelno="25" datetime="06/10/2026,00:39:37.269" channelid="L FUSE DLD3PH" statuschange="On" />
+<event channelno="81" datetime="06/10/2026,00:39:37.304" channelid="TR L2 STBF1_2" statuschange="Off" />
+<event channelno="82" datetime="06/10/2026,00:39:37.308" channelid="TR L3 STBF1_2" statuschange="Off" />
+<event channelno="80" datetime="06/10/2026,00:39:37.309" channelid="TR L1 STBF1_2" statuschange="Off" />
+<event channelno="74" datetime="06/10/2026,00:39:38.997" channelid="BI CYCLE OAPV" statuschange="Off" />
+</events>
+</DisturbanceRecording>

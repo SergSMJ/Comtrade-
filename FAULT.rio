@@ -1,0 +1,158 @@
+BEGIN PROTECTIONDEVICE
+        DEVICE           7SA513 Київська
+        SUBSTATION         Папка
+        FEEDER          7SA513 PL K 
+        RATING          100.00, 1.00, 50.00
+        MAX             120.00, 10.00
+        I>>             1.80
+        IE>>            0.10
+        TOL-T           1.00, 0.10
+        TOL-Z           5.00, 0.10
+        CURRGROUND        LINE
+        LINEANGLE        75.00
+        RE/RL           2.11
+        XE/XL           0.72
+        KS              1.00, 0.00
+        ZS              0.26, 0.97
+        TIME0MAX        0.10
+        IMPCORR         FALSE
+        BEGIN ZONE
+                NAME    Z1
+                TIME1   0.0000
+                TIMEM   0.0000
+                BEGIN TRIPCHAR
+                        START   0.0000, 0.0000
+                        LINE    -6.8000, 11.7779
+                        LINE    -6.8000, 16.0000
+                        LINE    6.8000, 16.0000
+                        LINE    6.8000, -2.7474
+                        CLOSE
+                END TRIPCHAR
+                BEGIN TRIPCHAR-EARTH
+                        START   0.0000, 0.0000
+                        LINE    -6.8000, 11.7779
+                        LINE    -6.8000, 16.0000
+                        LINE    6.8000, 16.0000
+                        LINE    6.8000, -2.7474
+                        CLOSE
+                END TRIPCHAR-EARTH
+        END ZONE
+        BEGIN ZONE
+                NAME    Z2
+                TIME1   0.9000
+                TIMEM   0.8000
+                BEGIN TRIPCHAR
+                        START   0.0000, 0.0000
+                        LINE    -12.2700, 21.2523
+                        LINE    -12.2700, 26.9300
+                        LINE    12.2700, 26.9300
+                        LINE    12.2700, -4.9574
+                        CLOSE
+                END TRIPCHAR
+                BEGIN TRIPCHAR-EARTH
+                        START   0.0000, 0.0000
+                        LINE    -11.7300, 20.3170
+                        LINE    -11.7300, 26.9300
+                        LINE    11.7300, 26.9300
+                        LINE    11.7300, -4.7392
+                        CLOSE
+                END TRIPCHAR-EARTH
+        END ZONE
+        BEGIN ZONE
+                NAME    Z3
+                TIME1   3.0000
+                TIMEM   3.0000
+                BEGIN TRIPCHAR
+                        START   0.0000, 0.0000
+                        LINE    -15.4700, 26.7948
+                        LINE    -15.4700, 45.3300
+                        LINE    15.4700, 45.3300
+                        LINE    15.4700, -6.2503
+                        CLOSE
+                END TRIPCHAR
+                BEGIN TRIPCHAR-EARTH
+                        START   0.0000, 0.0000
+                        LINE    -19.2000, 33.2554
+                        LINE    -19.2000, 45.3300
+                        LINE    19.2000, 45.3300
+                        LINE    19.2000, -7.7573
+                        CLOSE
+                END TRIPCHAR-EARTH
+        END ZONE
+        BEGIN ZONE-OVERREACH
+                NAME    Z1B
+                TIME1   0.0000
+                TIMEM   0.0000
+                BEGIN TRIPCHAR
+                        START   0.0000, 0.0000
+                        LINE    -15.4700, 26.7948
+                        LINE    -15.4700, 45.3300
+                        LINE    15.4700, 45.3300
+                        LINE    15.4700, -6.2503
+                        CLOSE
+                END TRIPCHAR
+                BEGIN TRIPCHAR-EARTH
+                        START   0.0000, 0.0000
+                        LINE    -16.8000, 29.0985
+                        LINE    -16.8000, 45.3300
+                        LINE    16.8000, 45.3300
+                        LINE    16.8000, -6.7876
+                        CLOSE
+                END TRIPCHAR-EARTH
+        END ZONE
+        BEGIN ZONE-OVERREACH
+                NAME    Z1L
+                TIME1   0.0000
+                TIMEM   0.0000
+                BEGIN TRIPCHAR
+                        START   0.0000, 0.0000
+                        LINE    -44.1846, 76.5300
+                        LINE    53.3300, 76.5300
+                        LINE    53.3300, -21.5467
+                        CLOSE
+                END TRIPCHAR
+                BEGIN TRIPCHAR-EARTH
+                        START   0.0000, 0.0000
+                        LINE    -26.8800, 46.5575
+                        LINE    -26.8800, 76.5300
+                        LINE    26.8800, 76.5300
+                        LINE    26.8800, -10.8602
+                        CLOSE
+                END TRIPCHAR-EARTH
+        END ZONE
+        BEGIN ZONE-START
+                NAME    ZA
+                TIME1   7.2000
+                TIMEM   2147483647.0000
+                BEGIN TRIPCHAR
+                        START   89.3300, 181.8700
+                        LINE    89.3300, 51.5747
+                        LINE    33.9300, 19.5895
+                        LINE    33.9300, -19.5895
+                        LINE    89.3300, -51.5747
+                        LINE    89.3300, -90.9300
+                        LINE    -89.3300, -90.9300
+                        LINE    -89.3300, -51.5747
+                        LINE    -33.9300, -19.5895
+                        LINE    -33.9300, 19.5895
+                        LINE    -89.3300, 51.5747
+                        LINE    -89.3300, 181.8700
+                        CLOSE
+                END TRIPCHAR
+                BEGIN TRIPCHAR-EARTH
+                        START   34.1300, 181.8700
+                        LINE    34.1300, 19.7050
+                        LINE    38.9300, 22.4762
+                        LINE    38.9300, -22.4762
+                        LINE    34.1300, -19.7050
+                        LINE    34.1300, -90.9300
+                        LINE    -34.1300, -90.9300
+                        LINE    -34.1300, -19.7050
+                        LINE    -38.9300, -22.4762
+                        LINE    -38.9300, 22.4762
+                        LINE    -34.1300, 19.7050
+                        LINE    -34.1300, 181.8700
+                        CLOSE
+                END TRIPCHAR-EARTH
+        END ZONE-START
+END PROTECTIONDEVICE

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SIGRA-NETCONFIG>
+  <Configuration name="Saved Configuration" nodecount="60" assignment="1">
+    <Node name="K1" NodeID="0" CompensationNodeID="-1" ReRl="1" XeXl="1" RmRl="0" XmXl="0" Compensation="1" TresholdIe="100" ImpCorr="0" CT_Primary="2000" VT_Primary="433000" CT_Secondary="1" VT_Secondary="57.735" IE_Ratio="1" UEN_Ratio="1" StatePS="0" CT_Starpoint="0" bUseNewImpedanceCalc="0" bUse3I0="0" angle3I0="0" angle3I2="0" angleLine="85" bUseNewCalcForPh_Ph="0">
+      <Line name="" leftNode="0" rightNode="-1">
+        <Segment name="Part 1" type="line" phase="unknown" length="100" r1="0.03" x1="0.229" c1="1.55e-008" r0="0.03" x0="0.229" c0="1.55e-008" r0m="0" x0m="0" parallelNode="-1" INenn_Nominal="1000"/>
+      </Line>
+      <Assignment Name="B20 CT A IL1" Record="0" ID="5000"/>
+      <Assignment Name="B20 CT A IL2" Record="0" ID="5001"/>
+      <Assignment Name="B20 CT A IL3" Record="0" ID="5002"/>
+      <Assignment Name="B21 CT A IL1" Record="0" ID="5003"/>
+      <Assignment Name="B21 CT A IL2" Record="0" ID="5004"/>
+      <Assignment Name="B21 CT A IL3" Record="0" ID="5005"/>
+      <Assignment Name="LINE CT A IL1" Record="0" ID="5006"/>
+      <Assignment Name="LINE CT A IL2" Record="0" ID="5007"/>
+      <Assignment Name="LINE CT A IL3" Record="0" ID="5008"/>
+      <Assignment Name="LINE CT A IN" Record="0" ID="5009"/>
+      <Assignment Name="LINE VT A UL1" Record="0" ID="5010"/>
+      <Assignment Name="LINE VT A UL2" Record="0" ID="5011"/>
+      <Assignment Name="LINE VT A UL3" Record="0" ID="5012"/>
+    </Node>
+    <Path Name="C:\PROGRAMDATA\ABB\PCMDATABASES\DISTURBANCERECORDINGS\KYIVSKA\SUBSTATION\VOLTAGE LEVEL_J1\BAY_Q01\REL670_AA1J1Q01A3" Record="0"/>
+  </Configuration>
+</SIGRA-NETCONFIG>

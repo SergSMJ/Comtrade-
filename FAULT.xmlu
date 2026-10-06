@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SIGRA-NETCONFIG>
+  <Configuration name="Saved Configuration" nodecount="60" assignment="1">
+    <Node name="K1" NodeID="0" CompensationNodeID="-1" ReRl="1" XeXl="1" RmRl="0" XmXl="0" Compensation="1" TresholdIe="100" ImpCorr="0" CT_Primary="2000" VT_Primary="750000" CT_Secondary="1" VT_Secondary="100" IE_Ratio="1" UEN_Ratio="1" StatePS="0" CT_Starpoint="0" bUseNewImpedanceCalc="0" bUse3I0="0" angle3I0="0" angle3I2="0" angleLine="85" bUseNewCalcForPh_Ph="0">
+      <Line name="" leftNode="0" rightNode="-1">
+        <Segment name="Part 1" type="line" phase="unknown" length="100" r1="0.03" x1="0.229" c1="1.55e-008" r0="0.03" x0="0.229" c0="1.55e-008" r0m="0" x0m="0" parallelNode="-1" INenn_Nominal="1000"/>
+      </Line>
+      <Assignment Name="Current iL1" Record="0" ID="5000"/>
+      <Assignment Name="Current iL2" Record="0" ID="5001"/>
+      <Assignment Name="Current iL3" Record="0" ID="5002"/>
+      <Assignment Name="Current 3i0" Record="0" ID="5003"/>
+      <Assignment Name="Voltage uL1" Record="0" ID="5004"/>
+      <Assignment Name="Voltage uL2" Record="0" ID="5005"/>
+      <Assignment Name="Voltage uL3" Record="0" ID="5006"/>
+      <Assignment Name="Voltage uN" Record="0" ID="5007"/>
+      <Assignment Name="Voltage U w2" Record="0" ID="5008"/>
+    </Node>
+    <Path Name="C:\SIEMENS\DIGSI4\D4PROJ\7SA513_P\P7DI\GV\V3\00000002\STOER" Record="0"/>
+  </Configuration>
+</SIGRA-NETCONFIG>
