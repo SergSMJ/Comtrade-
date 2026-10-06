@@ -114,7 +114,7 @@ export function autoDetectBays(rec: Oscillogram): BayMap[] {
   const iGroups = [...groups.values()].filter((g) => g.kind === 'I' && full(g));
   const uGroups = [...groups.values()].filter((g) => g.kind === 'U' && full(g));
 
-  const bays: BayMap[] = iGroups.map((ig) => {
+  const scored = iGroups.map((ig) => {
     let best: Group | undefined;
     let bestScore = -1;
     for (const ug of uGroups) {
@@ -128,13 +128,18 @@ export function autoDetectBays(rec: Oscillogram): BayMap[] {
     // Якщо немає спільних ознак — вибирається перша трійка напруг (користувач перевіряє).
     const u = best ?? uGroups[0];
     return {
+      score: bestScore,
       name: ig.key,
       i: { a: ig.slots.a ?? null, b: ig.slots.b ?? null, c: ig.slots.c ?? null, n: ig.slots.n ?? null },
       u: { a: u?.slots.a ?? null, b: u?.slots.b ?? null, c: u?.slots.c ?? null, n: u?.slots.n ?? null },
       invert: [],
     };
   });
-  return bays;
+  // Першими — приєднання, для яких трійку напруг підібрано за спільними ознаками назви/групи.
+  return scored
+    .map((b, order) => ({ b, order }))
+    .sort((x, y) => y.b.score - x.b.score || x.order - y.order)
+    .map(({ b: { score: _score, ...bay } }) => bay as BayMap);
 }
 
 export function emptyBay(name = 'Приєднання'): BayMap {
