@@ -1,0 +1,26 @@
+{
+  "name": "comtrade-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Аналіз аварійних осцилограм COMTRADE / «Регіна»: векторні діаграми, годографи опору, зони ДЗ",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/plotly.js-dist-min": "^2.3.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3",
+    "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "docx": "^9.8.1",
+    "plotly.js-dist-min": "^4.1.2"
+  }
+}
